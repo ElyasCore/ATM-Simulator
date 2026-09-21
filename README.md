@@ -1,12 +1,9 @@
-# ATM Simulator
+ATM Simulator
 
-A simple Java console-based ATM simulator built while learning Java fundamentals.
+A console-based ATM simulation that starts with an initial balance and allows the user to check their balance, deposit money, withdraw money, or exit.
 
-### Built with
-- Java
-- IntelliJ IDEA
+The program validates menu choices, deposit amounts, and withdrawal amounts while updating the account balance after each transaction.
 
-### Version
-v1.0
+Concepts Practiced
 
-> First version — built while learning Java fundamentals.
+while Loops · switch · Conditions · Variables · State Management · Input Validation · break
