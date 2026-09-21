@@ -1,9 +1,25 @@
-ATM Simulator
+## ATM Simulator
 
-A console-based ATM simulation that starts with an initial balance and allows the user to check their balance, deposit money, withdraw money, or exit.
+A console-based ATM simulation that allows the user to manage a starting account balance through a simple menu.
 
-The program validates menu choices, deposit amounts, and withdrawal amounts while updating the account balance after each transaction.
+The project focuses on menu-driven program logic, input validation, updating program state, and handling different transaction paths using loops and `switch`.
 
-Concepts Practiced
+### Features
 
-while Loops · switch · Conditions · Variables · State Management · Input Validation · break
+* Start with an initial account balance
+* Choose between Arabic and English
+* Check the current balance
+* Deposit money
+* Validate deposit amounts
+* Withdraw money
+* Validate withdrawal amounts
+* Prevent withdrawals above the available balance
+* Update the balance after each transaction
+* Repeat the menu until the user exits
+* Handle invalid menu choices
+
+### Concepts Practiced
+
+`Scanner` · `while` Loop · `switch` · `if/else` · Variables · Logical Operators · Comparisons · State Management · Input Validation · `break`
+
+Built as part of my Java learning journey to practice managing program state and combining multiple operations inside a menu-driven application.
